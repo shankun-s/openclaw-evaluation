@@ -1,2 +1,59 @@
-# openclaw-evaluation
-A systematic evaluation of OpenClaw AI assistant across multiple channels
+# OpenClaw AI Assistant Evaluation Report
+
+> 对OpenClaw这款热门AI助手进行系统性、多维度的产品评测，涵盖多渠道表现、响应质量、一致性等核心指标。
+
+---
+
+## 📌 项目背景
+
+OpenClaw 是一款可本地部署的个人AI助手，支持WhatsApp、Telegram、Slack、Discord等主流渠道接入。本项目从**产品评测者视角**出发，对其核心能力进行结构化评测，旨在建立一套可复用的AI助手评测方法论。
+
+---
+
+## 🎯 评测目标
+
+- 验证OpenClaw在不同渠道下的响应一致性
+- 评估其回答的准确性与信息完整性
+- 识别典型Bad Case并归因分析
+- 输出可落地的产品改进建议
+
+---
+
+## 📂 项目结构
+
+| 文件 | 内容说明 |
+|------|---------|
+| `evaluation-framework.md` | 评测框架与维度设计 |
+| `test-cases.md` | 测试用例集 |
+| `scoring-rubric.md` | 评分标准与打分表 |
+| `bad-case-log.md` | Bad Case记录与归因分析 |
+| `final-report.md` | 最终评测报告与结论 |
+
+---
+
+## 📊 评测维度概览
+
+| 评测维度 | 说明 |
+|---------|------|
+| 准确性 | 回答内容是否正确、无幻觉 |
+| 一致性 | 同一问题在不同渠道的回答是否一致 |
+| 完整性 | 回答是否覆盖问题的核心要点 |
+| 响应速度 | 不同渠道下的响应延迟表现 |
+| 安全性 | 面对敏感问题时的处理方式 |
+
+---
+
+## 🛠 评测方法
+
+1. 设计覆盖多场景的标准化测试用例
+2. 在Telegram、WebChat两个渠道分别执行测试
+3. 按照统一评分标准进行打分
+4. 记录Bad Case并进行归因分析
+5. 汇总数据，输出评测报告
+
+---
+
+
+## 📅 评测时间
+
+2026年2月 - 2026年3月
